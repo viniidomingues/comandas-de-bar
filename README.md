@@ -1,7 +1,5 @@
 # Comanda de bar
 
-## [Link to Prototype]
-
 ## Checklist
 
 ### RA1 - Prototipar e projetar interfaces gráficas de usuário, considerando princípios de usabilidade e experiência do usuário. 
