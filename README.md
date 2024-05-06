@@ -1,10 +1,10 @@
 # Comanda de bar
 
-## Checklist
+## [Link to Prototype][(https://www.figma.com/proto/hgoH9aQyKyD5L8CgcpLtWj/gerenciador-de-comandas?type=design&node-id=0-1&t=bI9VBsuXd7CjJpt1-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=9%3A28)]
 
 ### RA1 - Prototipar e projetar interfaces gráficas de usuário, considerando princípios de usabilidade e experiência do usuário. 
- - [ ] ID1: O aluno desenvolveu protótipos de interfaces que demonstram compreensão das diretrizes de usabilidade. 
- - [] ID2: O aluno projetou interfaces responsivas que se adaptam a diferentes tamanhos de tela.
+ - [X] ID1: O aluno desenvolveu protótipos de interfaces que demonstram compreensão das diretrizes de usabilidade. 
+ - [X] ID2: O aluno projetou interfaces responsivas que se adaptam a diferentes tamanhos de tela.
 
 ### RA2 - Criar e reutilizar componentes em frameworks frontend, desenvolvendo interfaces modulares, responsivas e estilizadas.
  - [ ] ID3: O aluno desenvolveu componentes reutilizáveis que são aplicáveis em diferentes contextos da aplicação, garantindo que se adaptem de maneira responsiva em vários tamanhos de tela.
