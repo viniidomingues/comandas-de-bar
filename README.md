@@ -1,6 +1,6 @@
 # Comanda de bar
 
-## [Link to Prototype][(https://www.figma.com/proto/hgoH9aQyKyD5L8CgcpLtWj/gerenciador-de-comandas?type=design&node-id=0-1&t=bI9VBsuXd7CjJpt1-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=9%3A28)]
+## [Link to Prototype](https://www.figma.com/proto/hgoH9aQyKyD5L8CgcpLtWj/gerenciador-de-comandas?type=design&node-id=0-1&t=bI9VBsuXd7CjJpt1-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=9%3A28)
 
 ### RA1 - Prototipar e projetar interfaces gráficas de usuário, considerando princípios de usabilidade e experiência do usuário. 
  - [X] ID1: O aluno desenvolveu protótipos de interfaces que demonstram compreensão das diretrizes de usabilidade. 
