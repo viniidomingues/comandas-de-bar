@@ -4,7 +4,12 @@ module.exports = {
     "./src/**/*.{html,ts}",
   ],
   theme: {
-    extend: {},
+    extend: { 
+      colors: {
+      darkgray: '#1E1E1E',
+      darkgrayhover: '#333333', 
+      darkgrayfocus: '#474747'
+    }},
   },
   plugins: [require("daisyui")],
 }

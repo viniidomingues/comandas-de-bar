@@ -1,29 +1,11 @@
-<div class="hero min-h-screen bg-base-200">
-    <div class="hero-content flex-col lg:flex-row-reverse">
-      <div class="text-center lg:text-left">
-        <h1 class="text-5xl font-bold">Login</h1>
-      </div>
-      <div class="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-        <form class="card-body">
-          <div class="form-control">
-            <label class="label">
-              <span class="label-text">Email</span>
-            </label>
-            <input type="email" placeholder="email" class="input input-bordered" required />
-          </div>
-          <div class="form-control">
-            <label class="label">
-              <span class="label-text">Password</span>
-            </label>
-            <input type="password" placeholder="password" class="input input-bordered" required />
-            <label class="label">
-              <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
-            </label>
-          </div>
-          <div class="form-control mt-6">
-            <button class="btn btn-primary">Login</button>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
+<div class="login-page bg-darkgray p-4 sm:p-8 text-center max-w-[700px] mx-auto">
+  <img src="../../../../assets/logo-bar.png" alt="Logotipo do Restaurante e Bar Caseirinho" class="mx-auto mb-4 rounded-lg" style="width: 120px; height: auto;">
+  <h1 class="title text-2xl sm:text-3xl font-bold mb-6 text-white">Realizar o login para entrar</h1>
+  <form class="form"  (ngSubmit)="onSubmit()">
+    <label for="user" class="block text-sm font-medium text-white mb-2">Usuário:</label>
+    <input type="text" id="user" name="user" class="block w-full appearance-none bg-white border border-gray-400 rounded-md py-2 px-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 mb-4">
+    <label for="password" class="block text-sm font-medium text-white mb-2">Senha:</label>
+    <input type="password" id="password" name="password" class="block w-full appearance-none bg-white border border-gray-400 rounded-md py-2 px-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 mb-6">
+    <input type="submit" value="Entrar" class="block w-full appearance-none bg-green-500 text-darkgray rounded-md py-2 px-4 leading-tight hover:bg-green-600 focus:outline-none focus:bg-green-600">
+  </form>
+</div>

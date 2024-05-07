@@ -10,5 +10,9 @@ import { LoginComponent } from './components/pages/login/login.component';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'MOISES';
+  onLogin(event: any) {
+    // Implemente a lógica de autenticação aqui.
+    console.log('Usuário:', event.username);
+    console.log('Senha:', event.password);
+  }
 }
