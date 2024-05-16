@@ -1,11 +1,40 @@
-<div class="login-page bg-darkgray p-4 sm:p-8 text-center max-w-[700px] mx-auto">
-  <img src="../../../../assets/logo-bar.png" alt="Logotipo do Restaurante e Bar Caseirinho" class="mx-auto mb-4 rounded-lg" style="width: 120px; height: auto;">
-  <h1 class="title text-2xl sm:text-3xl font-bold mb-6 text-white">Realizar o login para entrar</h1>
-  <form class="form"  (ngSubmit)="onSubmit()">
-    <label for="user" class="block text-sm font-medium text-white mb-2">Usuário:</label>
-    <input type="text" id="user" name="user" class="block w-full appearance-none bg-white border border-gray-400 rounded-md py-2 px-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 mb-4">
-    <label for="password" class="block text-sm font-medium text-white mb-2">Senha:</label>
-    <input type="password" id="password" name="password" class="block w-full appearance-none bg-white border border-gray-400 rounded-md py-2 px-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 mb-6">
-    <input type="submit" value="Entrar" class="block w-full appearance-none bg-green-500 text-darkgray rounded-md py-2 px-4 leading-tight hover:bg-green-600 focus:outline-none focus:bg-green-600">
+<div
+  class="login-page bg-darkgray p-4 sm:p-8 text-center max-w-[700px] mx-auto"
+>
+  <img
+    src="../../../../assets/logo-bar.png"
+    alt="Logotipo do Restaurante e Bar Caseirinho"
+    class="mx-auto mb-4 rounded-lg"
+    style="width: 120px; height: auto"
+  />
+  <h1 class="title text-2xl sm:text-3xl font-bold mb-6 text-white">
+    Realizar o login para entrar
+  </h1>
+  <form class="form" [formGroup]="signupForm" (ngSubmit)="onSubmit()">
+    <label for="user" class="block text-sm font-medium text-white mb-2"
+      >Usuário:</label
+    >
+    <input
+      type="text"
+      id="user"
+      name="user"
+      formControlName="email"
+      class="block w-full appearance-none bg-white border border-gray-400 rounded-md py-2 px-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 mb-4"
+    />
+    <label for="password" class="block text-sm font-medium text-white mb-2"
+      >Senha:</label
+    >
+    <input
+      type="password"
+      id="password"
+      name="password"
+      formControlName="password"
+      class="block w-full appearance-none bg-white border border-gray-400 rounded-md py-2 px-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 mb-6"
+    />
+    <input
+      type="submit"
+      value="Entrar"
+      class="block w-full appearance-none bg-green-500 text-darkgray rounded-md py-2 px-4 leading-tight hover:bg-green-600 focus:outline-none focus:bg-green-600"
+    />
   </form>
 </div>
